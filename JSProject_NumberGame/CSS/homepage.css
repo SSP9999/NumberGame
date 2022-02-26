@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    position: relative;
+
+}
+.gameBox
+{
+    padding-left: 9rem;
+    padding-top: 5rem;
+}
+.answerBtn
+{
+font-size: 4rem;
+background-color:grey;
+margin-bottom: 2rem;
+margin-top: 2rem;
+padding: 0 0rem 0 4rem;
+margin-left: 2rem;
+margin-right: 18rem;
+border-radius: 1rem;
+}
+.inputNum
+{
+    margin: 0 0rem 2rem 1rem;
+    padding: 2rem 0rem 1rem 0rem;
+}
+.submitBtn
+{
+    margin-left: 4rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: 700;
+}
+
+
+.clueBox
+{
+margin-top: 10rem;
+padding-bottom: 10rem;
+margin-left: 1rem;
+margin-right: 2rem
+}
+.headingPrimary
+{
+font-size: 1rem;
+padding-top: 1rem;
+color: blue;
+}
+.sheetBtn
+{
+    background-color: green;
+    margin: 1rem 4rem 0 5rem;
+    border-radius: 2rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+    font-weight: 800;
+}
+.count
+{
+    font-size: 3.5rem;
+    margin-left: 4.5rem;
+}
+.clueBox
+{
+    margin-top: 8rem;
+    margin-left: 3rem;
+   background-color:#f5f6f7  ;
+    padding: 0 0 12rem 2rem;
+}
+
+.clueHeading
+{
+    margin-left: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.clueInfo
+{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+}
+#image
+{
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    width: 20rem
+}
+#ballonDiv
+{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    top: 8rem;
+    right: 10rem;
+}
